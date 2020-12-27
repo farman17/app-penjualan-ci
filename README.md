@@ -56,5 +56,4 @@ Untuk cara instalasi dan konfigurasi caranya sangat mudah
 9. Untuk login `kasir` kalian bisa menggunakan username = `KSR58` dan password `pwd_fakhrul`
 
 ### Tentang Saya
-
-Fakhrul Fanani Nugroho siswa Kelas 12 Jurusan Teknik Komputer Informatika di SMK Negeri 1 Wanareja. https://www.instagram.com/nugrohospace/
+AHMAD FARMAN - Devops Engineer
