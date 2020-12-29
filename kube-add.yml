@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: sosmed-service
+  name: jual-service
   namespace: production
 spec:
   ports:
@@ -9,26 +9,26 @@ spec:
     protocol: TCP
   #type: LoadBalancer
   selector:
-    app: sosmed
+    app: jual
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sosmed
+  name: jual-deploy
   namespace: production
 spec:
   selector:
     matchLabels:
-      app: sosmed
+      app: jual
   replicas: 2
   template:
     metadata:
       labels:
-        app: sosmed
+        app: jual
     spec:
       containers:
       - name: php-pesbuk
-        image: farman17/booking-hotel
+        image: farman17/penjualan-ci
         ports:
           - containerPort: 80
        
@@ -37,7 +37,7 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: sosmed-ingress
+  name: jual-ingress
   namespace: production
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
@@ -48,6 +48,6 @@ spec:
       paths:
       #- path: /
       - backend:
-          serviceName: sosmed-service
+          serviceName: jual-service
           servicePort: 80
 
