@@ -27,19 +27,11 @@ spec:
         app: jual
     spec:
       containers:
-<<<<<<< HEAD
       - name: php-jual
         image: farman17/penjualan-ci
         ports:
           - containerPort: 80
    
-=======
-      - name: php-pesbuk
-        image: farman17/penjualan-ci
-        ports:
-          - containerPort: 80
-       
->>>>>>> ad2f0e39cd0faff3a234c52fe91a7ed745d56195
 
 ---
 apiVersion: extensions/v1beta1
