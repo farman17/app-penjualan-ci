@@ -23,7 +23,7 @@ ob_start();
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://18.219.223.78:3002/myweb/';
+$config['base_url'] = 'landing.dailybugis.my.id/';
 
 /*
 |--------------------------------------------------------------------------
