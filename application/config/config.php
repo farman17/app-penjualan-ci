@@ -23,11 +23,9 @@ ob_start();
 | a PHP script and you can easily do that on your own.
 |
 */
-<<<<<<< HEAD
+
 $config['base_url'] = 'landing.dailybugis.my.id/';
-=======
-$config['base_url'] = 'http://landing.dailybugis.my.id/';
->>>>>>> ad2f0e39cd0faff3a234c52fe91a7ed745d56195
+
 
 /*
 |--------------------------------------------------------------------------
