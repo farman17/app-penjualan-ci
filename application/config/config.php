@@ -24,7 +24,7 @@ ob_start();
 |
 */
 
-$config['base_url'] = 'http://landing.dailybugis.my.id/';
+$config['base_url'] = '';
 
 
 /*
