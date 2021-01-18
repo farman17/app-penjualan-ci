@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: php-jual
-        image: farman17/penjualan-ci
+        image: farman17/aplikasi-penjualanku
         ports:
           - containerPort: 80
    
